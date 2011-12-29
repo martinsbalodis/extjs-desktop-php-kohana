@@ -25,3 +25,6 @@
 [submodule "assets/extjs"]
 	path = assets/extjs
 	url = git://github.com/probonogeek/extjs.git
+[submodule "modules/extjsdesktop"]
+	path = modules/extjsdesktop
+	url = git@github.com:martinsbalodis/kohana-extjsdesktop.git
