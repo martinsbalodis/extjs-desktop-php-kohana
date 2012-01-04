@@ -1,4 +1,4 @@
-Ext.define('MyDesktop.Test.empty', {
+Ext.define('Test.Empty', {
     extend: 'Ext.ux.desktop.Module',
 
     init : function(){
@@ -9,7 +9,7 @@ Ext.define('MyDesktop.Test.empty', {
             scope: this
         }
     },
-	windowId: 'empty-window',
+	windowId: 'test-empty',
 
     createWindow : function(src){
         var desktop = this.app.getDesktop();
