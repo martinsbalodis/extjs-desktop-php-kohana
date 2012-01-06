@@ -1,6 +1,6 @@
 <?php
 
-class Model_Shop extends ORM {
+class Model_Shop_Shop extends ORM {
 	
 	protected $_table_name = 'shop';
 	

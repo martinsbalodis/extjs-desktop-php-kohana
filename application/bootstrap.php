@@ -117,6 +117,12 @@ Route::set('test', 'test/<controller>(/<action>(/<id>))')
 		'action'     => 'index',
 	));
 
+Route::set('shop', 'shop/<controller>(/<action>(/<id>))')
+	->defaults(array(
+		'directory'	 => 'shop',
+		'action'     => 'index',
+	));
+
 /**
  * defaults for the URI.
  */
